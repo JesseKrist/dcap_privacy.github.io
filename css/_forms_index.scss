@@ -1,0 +1,124 @@
+
+.form-index{
+  padding-top: 40px;
+  background: linear-gradient(112.68deg, #EEEEEE 13.23%, rgba(220, 212, 212, 0.354167) 66.85%, rgba(238, 238, 238, 0) 96.25%);
+  padding-bottom: 90px;
+  overflow: hidden;
+
+  .form-index-content{
+    .left-image {
+      position: absolute;
+      left: -1px;
+      top: 212px;
+    }
+    .right-image{
+      position: absolute;
+      right: 0;
+      bottom: -134px;
+    }
+    .left-center-image {
+      position: absolute;
+      left: 32%;
+      top: 53px;
+      z-index: 0;
+    }
+    .right-center-image {
+      position: absolute;
+      right: 28%;
+      top: 53px;
+      z-index: 0;
+    }
+    .percent{
+      font-family: BebasNeue;
+      color: #0077ED;
+      font-size: 100px;
+      position: absolute;
+    }
+    .left-percent {
+      left: 135px;
+      top: 98px;
+    }
+
+    .right-percent {
+      right: 148px;
+      top: 245px;
+    }
+    .form-container {
+      display: block;
+      position: relative;
+      z-index: 2;
+      margin-left: auto;
+      margin-right: auto;
+      background: url(../img/mac_modal.png) no-repeat center;
+      -webkit-background-size: contain;
+      background-size: contain;
+      height: 350px;
+      max-width: 526px;
+      width: 100%;
+      form {
+        padding-top: 60px;
+        padding-left: 32px;
+        .form-group {
+          position: relative;
+          width: 80%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          label{
+            position: absolute;
+            left: 11px;
+            top: 13px;
+            text-align: left;
+            font-family: BebasNeue, serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 17px;
+            text-transform: uppercase;
+          }
+          .form-control{
+            border-radius: 10px;
+            font-family: "BebasNeue", serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 17px;
+            text-transform: uppercase;
+            padding-left: 100px;
+            padding-top: 8px;
+          }
+        }
+      }
+      .btn {
+        width: 231px;
+        height: 34px;
+        color: #fff;
+        background-color: #D3D5E4;
+        border: 1px #CDC5C5;
+        text-transform: uppercase;
+        padding: 1px 35px;
+        font-size: 23px;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 9px;
+        color: rgba(0, 0, 0, 0.63);
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 40px;
+
+        &:focus{
+          outline: 0;
+          box-shadow: 0 0 0 0.2rem rgba(116, 115, 115, 0.25);
+        }
+        &:hover{
+          color: #939393;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+
+
